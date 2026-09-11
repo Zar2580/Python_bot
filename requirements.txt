@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+requests
+psutil
+aiohttp
+python-telegram-bot
+python-telegram-bot[job-queue]>=21.0,<23.0
