@@ -1,0 +1,18 @@
+# Telegram control panel
+python-telegram-bot==22.8
+
+# Telegram user-account login/session manager
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# HTTP/async/config support used by the hosting bot and its integrations
+requests>=2.31.0
+aiohttp>=3.9.0
+pydantic>=2.0.0
+urllib3>=2.0.0
+certifi>=2024.0.0
+idna>=3.6
+charset-normalizer>=3.3.0
+
+# TgCrypto is optional for Pyrogram performance and is intentionally not required.
+# It may need a compiler on slim images.
